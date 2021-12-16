@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "./node_modules/.bin/nodemon index.js",
-    "eslint":"./node_modules/.bin/eslint --format codeframe .",
-    "puglint":"./node_modules/.bin/pug-lint .",
-    "lint:fix":"./node_modules/.bin/eslint --fix codeframe .",
-    "lint":"npm run wslint && npm run puglint"
+    "eslint": "./node_modules/.bin/eslint --format codeframe .",
+    "puglint": "./node_modules/.bin/pug-lint .",
+    "lint:fix": "./node_modules/.bin/eslint --fix c--format odeframe .",
+    "lint": "npm run wslint && npm run puglint"
   },
   "repository": {
     "type": "git",
