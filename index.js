@@ -1,5 +1,5 @@
 const express = require('express')
-// const showdata = require('./showdata')
+const showdata = require('./showdata')
 
 const app = express()
 
@@ -7,11 +7,10 @@ const app = express()
 
  app.set('view engine', 'pug')
 
-/*
-app.get('/', (request, respond) => {
+
+app.get('/', (request, response) => {
     return response.render('index', { showdata })
 })
-*/
 
 app.all ('*', (request, response) => {
     return response.sendStatus(404)
