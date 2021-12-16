@@ -17,3 +17,7 @@ html
             li= star
 
         h2 Seasons
+        ul  
+            for season in showdata.seasons 
+            li
+                a(href=`/season/$[season.number]`)=`season ${season.number}`
