@@ -1,7 +1,7 @@
 html 
     head 
         title TV synopsis   
-        link(rel= "stylesheet" href= "/css/styles.css")
+        link(rel="stylesheet" href="/css/styles.css")
 
     body 
         h1= showdata.title 
@@ -20,4 +20,4 @@ html
         ul  
             for season in showdata.seasons 
                 li
-                    a(href=`/season/$[season.number]`)=`Season ${season.number}`
+                    a(href=`/season/${season.number}`)=`Season ${season.number}`
