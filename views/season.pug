@@ -1,7 +1,7 @@
 html 
     head 
         title TV synopsis   
-        link(rel= "stylesheet" href= "/css/styles.css")
+        link(rel="stylesheet" href="/css/styles.css")
 
     body 
         h1= title 
@@ -15,7 +15,7 @@ html
             for episode in season.episodes
                 tr
                 td(class="number")= episode.number
-                td(class="title")= episode.tile 
+                td(class="title")= episode.title 
                 td(clas="director")= episode.director
                 tr 
                 td(colspan=3)= episode.synopsis
